@@ -22,13 +22,6 @@ $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-#PRODUCT_ENFORCE_RRO_TARGETS := \
-#    Bluetooth \
-#    Settings \
-#    SettingsProvider \
-#    SystemUI \
-#    framework-res \
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -73,10 +66,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 	
-# AdvancedControls
-PRODUCT_PACKAGES += \
-    AdvancedControls
-
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
