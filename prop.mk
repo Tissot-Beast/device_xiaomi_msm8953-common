@@ -41,10 +41,6 @@ vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true
 
-#Set AudioFlinger client heap size
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.af.client_heap_size_kbyte=7168
-
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.audio.hw.binder.size_kbyte=1024
 
