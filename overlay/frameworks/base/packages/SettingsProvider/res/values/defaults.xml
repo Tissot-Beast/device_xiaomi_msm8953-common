@@ -24,5 +24,7 @@
     <bool name="def_dtmf_tones_enabled">false</bool>
     <!-- Default for UI touch sounds enabled -->
     <bool name="def_sound_effects_enabled">false</bool>
+    <!-- Default for Settings.System.VIBRATE_WHEN_RINGING -->
+    <bool name="def_vibrate_when_ringing">true</bool>
 
 </resources>
