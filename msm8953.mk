@@ -141,7 +141,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
     libqdMetaData.system \
-	libnl \
     libgenlock \
     libtinyxml \
     vendor.display.config@1.0 \
@@ -260,7 +259,6 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    libaacwrapper \
     libc2dcolorconvert \
     libmm-omxcore \
     libOmxAacEnc \
