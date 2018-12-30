@@ -280,6 +280,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+	
+# OTA Updates
+PRODUCT_PACKAGES += \
+    Updates
 
 # Power
 PRODUCT_PACKAGES += \
@@ -349,7 +353,7 @@ PRODUCT_COPY_FILES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.xiaomi_8953
+    android.hardware.usb@1.0-service.tissot
 
 # VNDK
 PRODUCT_PACKAGES += \
