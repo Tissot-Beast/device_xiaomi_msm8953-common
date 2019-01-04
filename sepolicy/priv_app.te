@@ -1,0 +1,6 @@
+get_prop(priv_app, bluetooth_prop);
+get_prop(priv_app, boottime_prop);
+get_prop(priv_app, bg_daemon_prop);
+get_prop(priv_app, bg_boot_complete_prop);
+
+
