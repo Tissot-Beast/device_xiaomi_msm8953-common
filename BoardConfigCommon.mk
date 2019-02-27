@@ -202,15 +202,16 @@ TARGET_HAS_NO_WLAN_STATS := true
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_USE_SDCLANG := true
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # Recovery
 ifeq ($(AB_OTA_UPDATER), true)
 TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab_AB.qcom
 else
 TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab.qcom
 endif
-
-# RIL
-TARGET_USES_OLD_MNC_FORMAT := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
